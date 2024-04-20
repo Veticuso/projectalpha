@@ -251,7 +251,7 @@
     color: #322653;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
     .top-container {
         grid-template-columns: 1fr;
         grid-template-rows: 2fr 1fr;
@@ -275,7 +275,7 @@
     }
 
     .middle-container {
-        padding-bottom: 4%;
+        padding-bottom: 8%;
     }
 
     .middle-container h1 {
