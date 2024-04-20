@@ -269,4 +269,17 @@
     .top-backing h2 {
         font-size: 6vw;
     }
+
+    .middle-container h1 {
+        font-size: 12vw;
+        margin: 2%;
+    }
+    
+    .middle-container h2 {
+        font-size: 3vw;
+    }
+
+    .middle-container ul {
+        font-size: 3vw;
+    }
 }
