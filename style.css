@@ -258,6 +258,10 @@
         min-height: 75vh;
     }
 
+    .top-section {
+        background-size: contain;
+    }
+
     .img-container {
         width: 70%;
     }
@@ -268,6 +272,10 @@
     
     .top-backing h2 {
         font-size: 6vw;
+    }
+
+    .middle-container {
+        padding-bottom: 4%;
     }
 
     .middle-container h1 {
