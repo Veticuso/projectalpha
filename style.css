@@ -104,7 +104,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    flex-basis: 100%;
     background-color: #322653;
     padding-bottom: 3%;
 }
@@ -214,6 +214,7 @@
     border: 2px solid rgb(70,130,169);
     border-radius: 5px;
     width: 100%;
+    height: 80%;
 }
 
 #item2 {
@@ -227,6 +228,7 @@
     border: 2px solid rgb(70,130,169);
     border-radius: 5px;
     width: 100%;
+    height: 80%;
 }
 
 #item4 {
@@ -258,16 +260,12 @@
         min-height: 75vh;
     }
 
-    .top-section {
-        background-size: contain;
-    }
-
     .img-container {
         width: 70%;
     }
 
     .top-backing h1 {
-        font-size: 20vw;
+        font-size: 18vw;
     }
     
     .top-backing h2 {
@@ -275,11 +273,11 @@
     }
 
     .middle-container {
-        padding-bottom: 8%;
+        padding-bottom: 5%;
     }
 
     .middle-container h1 {
-        font-size: 12vw;
+        font-size: 10vw;
         margin: 2%;
     }
     
@@ -289,5 +287,49 @@
 
     .middle-container ul {
         font-size: 3vw;
+    }
+
+    .bottom-container {
+        padding-bottom: 5%;
+    }
+
+    .bottom-container h1 {
+        font-size: 10vw;
+    }
+
+    .bottom-body {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr 2fr 1fr;
+        grid-gap: 0%;
+        justify-items: center;
+        text-align: center;
+    }
+
+    #item1 {
+        grid-area: 1 / 1 / 2 / 1;
+        border: 2px solid rgb(70,130,169);
+        border-radius: 5px;
+        width: 40%;
+        height: 80%;
+    }
+    
+    #item2 {
+        grid-area: 2 / 1 / 3 / 1;
+        font-size: 3vw;
+        width: 80%;
+    }
+    
+    #item3 {
+        grid-area: 3 / 1 / 4 / 1;
+        border: 2px solid rgb(70,130,169);
+        border-radius: 5px;
+        width: 40%;
+        height: 80%;
+    }
+    
+    #item4 {
+        grid-area: 4 / 1 / 5 / 1;
+        font-size: 3vw;
+        width: 80%;
     }
 }
